@@ -1,0 +1,11 @@
+# Folders that should be instantiated locally for each project
+node_modules/
+.cache/
+dist/
+coverage/
+.vscode/
+
+.env
+
+# Mac specific
+.DS_store
