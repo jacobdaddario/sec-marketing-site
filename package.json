@@ -16,6 +16,7 @@
   "author": "Jacob Daddario",
   "license": "ISC",
   "devDependencies": {
+    "auto-prefixer": "^0.4.2",
     "eslint": "^7.7.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
@@ -23,7 +24,8 @@
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.1.0",
     "parcel-bundler": "^1.12.4",
-    "prettier": "^2.1.0"
+    "prettier": "^2.1.0",
+    "tailwindcss": "^1.7.3"
   },
   "dependencies": {
     "react": "^16.13.1",

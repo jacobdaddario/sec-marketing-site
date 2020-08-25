@@ -4,7 +4,7 @@ import { render } from "react-dom";
 const App = () => {
   return (
     <React.StrictMode>
-      <div>This is functional</div>
+      <div className="max-w-4xl bg-gray-900">This is functional</div>
     </React.StrictMode>
   );
 };
