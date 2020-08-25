@@ -1,10 +1,11 @@
 import React from "react";
 import { render } from "react-dom";
+import Hero from "./Hero";
 
 const App = () => {
   return (
     <React.StrictMode>
-      <div className="max-w-4xl bg-gray-900">This is functional</div>
+      <Hero />
     </React.StrictMode>
   );
 };
