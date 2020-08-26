@@ -10,3 +10,24 @@
 .hero-image {
   background-image: url("./assets/images/sec-hero.jpg");
 }
+
+/* SPINNER */
+.loader {
+  margin-left: auto;
+  margin-right: auto;
+  border: 16px solid #f0a0a0;
+  border-top: 16px solid #8c3c3c;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
