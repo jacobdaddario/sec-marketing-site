@@ -2,6 +2,9 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      screens: {
+        '2xl': '1920px',
+      },
       spacing: {
         '72': '18rem',
         '84': '21rem',
